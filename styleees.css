@@ -1,0 +1,84 @@
+body{
+    background-color:whitesmoke;
+    font-family: sans-serif;
+
+}
+a{
+    text-decoration:navajowhite;
+}
+.first{
+    background-color:silver;
+    width: 22%;
+    margin: 1% auto;
+    padding: 1rem 3rem;
+}
+.first h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.form{
+    padding-top: 2rem;
+   border-radius: 5px;
+
+}
+input{
+    width: 100%;
+    margin-top: 5%;
+    height: 25px;
+    padding: 12px 4px;
+    color:black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+.btn{
+    width: 102%;
+    height: 50px;
+    padding: 10px 4px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: thistle;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover {opacity: 1}
+h5{
+    text-align: center;
+    color:black;
+    padding-top: 5%;
+    text-decoration: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.fb{
+    text-align: center;
+    font-weight: bold;
+    color: darkolivegreen;
+    padding-top: 3%;
+
+}
+.fb:hover, .fb:active {color: red;}
+.forgot{
+    text-align: center;
+    padding-top: 3%;
+}
+.forgot:hover, .forgot:active {text-decoration: underline;}
+.second{
+    background-color:silver;
+    width: 22%;
+    margin: auto;
+    padding: 0.6rem 3rem;
+}
+.signup{
+    color:black;
+    font-weight: bold;
+}
+  .signup:hover, .signup:active {font-size: 150%;}
